@@ -1,7 +1,5 @@
-//CH5
-//==============================================================
-function stringManipulation(word) {
-  var x = word.toLowerCase();
+var stringManipulations = (word: string) => {
+  var x: string = word.toLocaleLowerCase();
   if (
     x.charAt(0) == "a" ||
     x.charAt(0) == "i" ||
@@ -13,7 +11,7 @@ function stringManipulation(word) {
   } else {
     console.log(word.substring(1) + word.charAt(0) + "nyo");
   }
-}
+};
 
-stringManipulation("ibu pergi ke pasar bersama ku");
-stringManipulation("Bebek");
+stringManipulations("ibu pergi ke pasar bersama ku");
+stringManipulations("Bebek");
