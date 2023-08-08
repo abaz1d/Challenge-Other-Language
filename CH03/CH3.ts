@@ -23,7 +23,6 @@ var fungsiRomawi = (n: number) => {
   return str;
 };
 
-
 console.log("Script Testing untuk Konversi Romawi\n");
 console.log("input  | expected | result");
 console.log("------ | -------- | ------");
