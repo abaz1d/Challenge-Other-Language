@@ -17,3 +17,4 @@ function stringManipulation(word) {
 
 stringManipulation("ibu pergi ke pasar bersama ku");
 stringManipulation("Bebek");
+stringManipulation("ayam");
