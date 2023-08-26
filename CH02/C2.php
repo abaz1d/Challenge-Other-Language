@@ -14,7 +14,7 @@ function deretKaskus($n) {
       array_push($total,$number);
     }
   }
-  var_dump($total);
+  print_r($total);
 }
 
  deretKaskus(10);
